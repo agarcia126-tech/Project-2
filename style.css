@@ -1,0 +1,47 @@
+/* NAV BAR STYLING */
+nav ul {
+  list-style: none;        
+  margin: 0;
+  padding: 0;
+  background-color: #333;  
+  display: flex;
+  justify-content: center; 
+}
+
+nav ul li a {
+  display: block;
+  color: white;           
+  text-decoration: none;   
+  padding: 14px 20px;      
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  background-color: #111;  
+}
+
+
+body {
+  background-color: #78b8c9; 
+  font-family: Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  background-color: #ec7763;
+  margin: 0;
+  padding: 0;
+}
+
+
+.barca-icon {
+  width: 80px;
+  background: transparent;
+}
+
+
+
+
