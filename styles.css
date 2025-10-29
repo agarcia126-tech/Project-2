@@ -1,0 +1,74 @@
+/* --- General Page Styling --- */
+body {
+  background-color: #ffe5d9;   /* the backround color */
+  font-family: Arial, sans-serif; /* main font */
+  text-align: center;          /* alligning my text in the center */
+  margin: 0;                   
+  padding: 0;                  
+}
+
+/* --- Navigation Bar --- */
+nav ul {
+  list-style: none;            /* Removes the bullet points */
+  padding: 0;                  
+  background-color: #c1121f;      /* makiing the nav bar red */
+  display: flex;               /* makes the text in the nav bar nice and split up */
+  justify-content: center;     /* makes it horizontal */
+  margin: 0;                   
+}
+
+nav ul li {
+  margin: 0 15px;              /* spaces nav links */
+}
+
+nav ul li a {
+  color: rgb(62, 29, 206);                /* color  */
+  text-decoration: none;       /* takes out lines from my links */
+  padding: 14px 20px;         
+  display: block;              
+}
+
+nav ul li a:hover {
+  background-color: #780000;      /* Changes color when mouse hovers */
+}
+
+/* --- Headings --- */
+h1, h2 {
+  margin-top: 15px;            /* Adds space above headings */
+}
+
+/* --- Paragraphs --- */
+p {
+  max-width: 800px;            
+  margin: 10px auto;           
+  line-height: 1.5;            
+}
+
+/* Lists */
+ul {
+  list-style-position: inside; /* Keeps bullets inside the text block */
+  display: inline-block;       /* Makes the list centered as a block */
+  text-align: left;            /* Aligns list text to the left */
+}
+
+/* --- Images --- */
+img {
+  display: block;              /* Centers images */
+  margin: 15px auto;           /* Adds space around images */
+  border-radius: 10px;         /* Rounds the image corners */
+}
+
+/* video */
+iframe {
+  display: block;              /* Centers the video frame */
+  margin: 20px auto;           /* Adds space around the video */
+  border-radius: 10px;         /* Rounds the video corners */
+}
+
+/* p making the webpage fluid*/
+p {
+  max-width: 80%;
+}
+nav ul li a {
+  padding: 1em 1.5em; 
+}
